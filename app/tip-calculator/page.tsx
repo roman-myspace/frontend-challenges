@@ -1,7 +1,7 @@
 "use client"
 
-import Billing from "@/components/tip-calculator/sections/billing"
-import Calculator from "@/components/tip-calculator/sections/calculator"
+import Billing from "@/components/challenges/tip-calculator/sections/billing"
+import Calculator from "@/components/challenges/tip-calculator/sections/calculator"
 
 export default function TipCalculator() {
     return (

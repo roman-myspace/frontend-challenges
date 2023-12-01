@@ -1,6 +1,12 @@
 import Footer from '@/components/layout/footer'
 import TipCalContextProvider from '@/context/tipcal-context'
+import { Metadata } from 'next'
 import React from 'react'
+
+export const metadata: Metadata = {
+    title: 'Tip Calculator Challenge',
+    description: 'Tip Calculator Challenges apps by frontendmentor.io',
+}
 
 export default function TipCalculatorLayout({ children }: { children: React.ReactNode }) {
     return (
