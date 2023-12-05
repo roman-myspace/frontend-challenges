@@ -27,7 +27,7 @@ export default function CountryDetails({
                     countryDetail.map((item: any, idx: number) => (
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 xl:gap-24" key={idx}>
                             <div className='w-full object-fill'>
-                                <img src={item.flag} alt='' className='w-full h-auto object-fill' />
+                                <img src={item.flag} alt={item?.name} className='w-full h-auto object-fill' />
                             </div>
 
                             <div className="text-black dark:text-white">

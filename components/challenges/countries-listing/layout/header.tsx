@@ -11,7 +11,7 @@ export default function Header() {
 
     return (
         <div className='bg-countries-lightGray dark:bg-countries-darkBlue shadow-sm py-4 px-2 sm:px-12 flex justify-between items-center sticky top-0'>
-            <h4 className="dark:text-white text-countries-veryDarkBlueText font-bold sm:text-xl">Where in the world?</h4>
+            <h1 className="dark:text-white text-countries-veryDarkBlueText font-bold sm:text-xl">Where in the world?</h1>
             <div className="dark:text-white text-countries-veryDarkBlueText cursor-pointer text-sm sm:text-md" onClick={countriesCtx?.toggleDarkMode}>
                 {
                     countriesCtx?.isDarkTheme ? (
