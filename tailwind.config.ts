@@ -6,6 +6,7 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       screens: {
@@ -21,6 +22,13 @@ const config: Config = {
           200: "#7f9c9f",
           100: "	#c5e4e7",
           50: "#f4fafa",
+        },
+        countries: {
+          darkBlue: "hsl(209, 23%, 22%)",
+          veryDarkBlueBG: "hsl(207, 26%, 17%)",
+          veryDarkBlueText: "hsl(200, 15%, 8%)",
+          darkGray: "hsl(0, 0%, 52%)",
+          lightGray: "hsl(0, 0%, 98%)",
         },
       },
     },
