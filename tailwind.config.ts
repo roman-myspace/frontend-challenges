@@ -30,6 +30,10 @@ const config: Config = {
           darkGray: "hsl(0, 0%, 52%)",
           lightGray: "hsl(0, 0%, 98%)",
         },
+        ipApp: {
+          veryDarkGray: "hsl(0, 0%, 17%)",
+          darkGray: "hsl(0, 0%, 59%)",
+        },
       },
     },
   },
