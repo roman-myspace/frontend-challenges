@@ -1,9 +1,5 @@
-$default_font: 'Space Mono', monospace;
-
 @layer base {
-    html {
-        font-family: $default_font;
-    }
+    html {}
 }
 
 @media (max-width: 1440px) {

@@ -20,7 +20,7 @@ export default function Input({
             value={value}
             onChange={onChange}
             onBlur={onBlur}
-            className={`bg-primary-50 rounded-md px-4 py-1.5 w-full text-xl text-right font-semibold text-primary-900 border-2 hover:border-primary-500 focus-within:border-primary-500 focus:border-primary-500 focus-within:outline-none placeholder:text-primary-100 ${inputClass} ${isError ? "!border-red-400" : "border-primary-50"}`}
+            className={` ${inputClass} ${isError ? "!border-red-400" : "border-primary-50"}`}
         />
     )
 }
@@ -36,14 +36,16 @@ Input.Label = ({
     onChange,
     onBlur,
     inputClass,
-    prefixIcon = null
+    prefixIcon = null,
+    labelClass = "",
+    errorTextClass = ""
 }: any) => (
     <article className="space-y-2">
         <div className="flex justify-between items-center">
-            <label className="text-base text-primary-900">{label}</label>
+            <label className={`text-base ${labelClass}`}>{label}</label>
             {
                 error && error?.length > 0 ?
-                    <p className="text-red-500 text-base">{error}</p>
+                    <p className={`text-red-500 text-base ${errorTextClass}`}>{error}</p>
                     : ""
             }
         </div>

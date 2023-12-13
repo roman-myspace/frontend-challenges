@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-
 .app__tip-calculator {
-    font-family: 'Space Mono', monospace;
+    font-family: $space_mono_font, monospace;
     @apply bg-primary-100 transition-all duration-300 ease-linear min-h-screen overflow-auto max-h-screen;
 }

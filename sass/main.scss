@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+// FONTS
+@import "./base/fonts";
 @import "./base/base";
 
 // apps 
 @import "./apps/tip-calculator";
-
 @import "./apps/qr-code";
+@import "./apps/multistep-form";

@@ -29,6 +29,8 @@ export default function Calculator() {
                 onChange={handleChange}
                 error={errorMessage.bill_amount}
                 prefixIcon={<FaDollarSign />}
+                inputClass={"bg-primary-50 rounded-md px-4 py-1.5 w-full text-xl text-right font-semibold text-primary-900 border-2 hover:border-primary-500 focus-within:border-primary-500 focus:border-primary-500 focus-within:outline-none placeholder:text-primary-100"}
+                labelClass="text-primary-900"
             />
 
             <div className="">
@@ -74,6 +76,8 @@ export default function Calculator() {
                 onChange={handleChange}
                 error={errorMessage.number_of_peoples}
                 prefixIcon={<FaUser />}
+                inputClass={"bg-primary-50 rounded-md px-4 py-1.5 w-full text-xl text-right font-semibold text-primary-900 border-2 hover:border-primary-500 focus-within:border-primary-500 focus:border-primary-500 focus-within:outline-none placeholder:text-primary-100"}
+                labelClass="text-primary-900"
             />
         </div>
     )
