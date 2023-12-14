@@ -104,6 +104,7 @@ export default function AgeCalculatorCard() {
                     <button type='submit' className="bg-transparent w-12 h-12 absolute  -bottom-6 right-1/2 xs:right-0 left-1/2 xs:left-auto -translate-x-1/2 xs:translate-x-0">
                         <img
                             src='/icons/age-app-icon-arrow.svg'
+                            alt='button arrow icon'
                             className='block w-full h-full rounded-full bg-ageCal-purple p-2'
                         />
                     </button>
