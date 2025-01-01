@@ -1,0 +1,47 @@
+.landing-container {
+    font-family: $titillium_font;
+}
+
+
+
+$tech-colors: (
+  html: #e34c26,
+  css: #264de4,
+  javascript: #f7df1e,
+  reactjs: #6abecd,
+  nextjs: #3e54a3,
+  typescript: #007acc,
+  tailwindcss: #cf6390,
+  vuejs: #42b883,
+  bootstrap: #7952b3
+);
+
+
+@each $tech, $color in $tech-colors {
+  .tech-#{$tech} {
+    color: $color;
+    font-family: $jetbrain_font;
+  }
+}
+
+
+$level-colors: (
+    newbie: #6abecd,
+    junior: #aad742,
+    intermediate: #f1b604,
+    advanced: #f48925,
+    guru: #ed2c49
+);
+
+
+@each $level, $color in $level-colors {
+    .level-#{$level} {
+      color: $color;
+      border: 1px solid $color;
+      padding: 5px 10px;
+      width: fit-content;
+      border-radius: 100px;
+      font-family: $jetbrain_font;
+    }
+}
+  

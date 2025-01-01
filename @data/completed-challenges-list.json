@@ -1,0 +1,68 @@
+[
+    {
+        "title": "QR Code Card Challenge", 
+        "thumbnail": "/images/challenges/qr-code-challenge.webp",
+        "level": "newbie", 
+        "tech_stack": ["nextjs", "tailwindcss", "typescript"], 
+        "github_link": {
+            "icon_url": "Github", 
+            "url": "https://github.com/roman-myspace/frontend-challenges"
+        },
+        "demo_link": "/qr-code-card"            
+    },
+    {
+        "title": "Tip Calculator App Challenge", 
+        "thumbnail": "/images/challenges/tip-calculator-challenge.webp",
+        "level": "junior", 
+        "tech_stack": ["nextjs", "tailwindcss", "typescript"], 
+        "github_link": {
+            "icon_url": "Github", 
+            "url": "https://github.com/roman-myspace/frontend-challenges"
+        },
+        "demo_link": "/tip-calculator"
+    },
+    {
+        "title": "Countries Listing App Challenge", 
+        "thumbnail": "/images/challenges/country-listing-challenge.webp",
+        "level": "advanced", 
+        "tech_stack": ["nextjs", "tailwindcss", "typescript"], 
+        "github_link": {
+            "icon_url": "Github", 
+            "url": "https://github.com/roman-myspace/frontend-challenges"
+        },
+        "demo_link": "/countries-listing"
+    },
+    {
+        "title": "IP Tracker App Challenge", 
+        "thumbnail": "/images/challenges/ip-tracker-challenge.webp",
+        "level": "intermediate", 
+        "tech_stack": ["nextjs", "tailwindcss", "typescript"], 
+        "github_link": {
+            "icon_url": "Github", 
+            "url": "https://github.com/roman-myspace/frontend-challenges"
+        },
+        "demo_link": "/ip-tracker-app"
+    },
+    {
+        "title": "Multi-Step Form Challenge", 
+        "thumbnail": "/images/challenges/multistep-form-challenge.webp",
+        "level": "advanced", 
+        "tech_stack": ["nextjs", "tailwindcss", "typescript"], 
+        "github_link": {
+            "icon_url": "Github", 
+            "url": "https://github.com/roman-myspace/frontend-challenges"
+        },
+        "demo_link": "/multistep-form"
+    },
+    {
+        "title": "Age Calculator Challenge", 
+        "thumbnail": "/images/challenges/age-calculator-challenge.webp",
+        "level": "junior", 
+        "tech_stack": ["nextjs", "tailwindcss", "typescript"], 
+        "github_link": {
+            "icon_url": "Github", 
+            "url": "https://github.com/roman-myspace/frontend-challenges"
+        },
+        "demo_link": "/age-calculator"
+    }
+]
