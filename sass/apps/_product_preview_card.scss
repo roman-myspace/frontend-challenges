@@ -1,0 +1,13 @@
+.product-preview-container {
+ 
+    background-color: theme("colors.productPreview.cream");
+    
+    p, a, span {
+        font-size: 14px;
+        font-family: $montserrat_font, sans-serif;
+    }
+    :is(h1, h2, h3, h4, h5, h6) {
+        font-family: $fraunces_font, serif;
+    }
+
+}

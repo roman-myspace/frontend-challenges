@@ -59,6 +59,12 @@ const config: Config = {
             200: "hsl(0, 0%, 94%)",
           },
         },
+        productPreview: {
+          dark_cyan: "hsl(158, 36%, 37%)",
+          cream: "hsl(30, 38%, 92%)", 
+          dark_blue: "hsl(212, 21%, 14%)",
+          grayish_blue: "hsl(228, 12%, 48%)"
+        }
       },
     },
   },

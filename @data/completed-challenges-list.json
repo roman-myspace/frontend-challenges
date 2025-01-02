@@ -1,5 +1,16 @@
 [
     {
+        "title": "Product Card Preview Challenge", 
+        "thumbnail": "/images/challenges/product-card-preview-challenge.webp",
+        "level": "newbie", 
+        "tech_stack": ["nextjs", "tailwindcss", "typescript"], 
+        "github_link": {
+            "icon_url": "Github", 
+            "url": "https://github.com/roman-myspace/frontend-challenges"
+        },
+        "demo_link": "/product-card-preview"            
+    },
+    {
         "title": "QR Code Card Challenge", 
         "thumbnail": "/images/challenges/qr-code-challenge.webp",
         "level": "newbie", 
